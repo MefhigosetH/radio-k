@@ -23,7 +23,7 @@ ul {
 header {
   color: #444;
   padding-top: 20px;
-  min-height: 60px;
+  height: 10vh;
 }
 
 header a {
@@ -35,7 +35,6 @@ header a {
 
 header nav {
   float: right;
-  margin-top: 10px;
 }
 
 header li {
@@ -56,18 +55,29 @@ header #branding h1 { margin: 0px; }
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
   color: #ffffff;
   text-align: center;
-  padding: 50px 0 50px 0;
+  min-height: 250px;
+  height: 86vh;
+  position: relative;
+}
+
+#showcase .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -10% 0 0 -40%;
 }
 
 #showcase h2 {
   font-size: 54pt;
   text-shadow: 2px 2px 4px #000000;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 #showcase p {
   font-size: 18pt;
   text-shadow: 2px 2px 4px #000000;
+  margin: 0 0 10px 0;
 }
 
 /* Servicios section */

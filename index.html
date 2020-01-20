@@ -8,14 +8,13 @@
   <meta name='author' content='Victor Villarreal'>
   <title>Radio K</title>
   <link rel='stylesheet' href='./css/style.css'>
-  <script src="https://kit.fontawesome.com/7b3205eae1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
       <div class='container'>
         <div id='branding'>
-          <h1>Radio <span>K</span></h1>
+          <h1>Radio <span>K-POP</span></h1>
         </div>
 
         <nav>
@@ -28,13 +27,24 @@
 
   <section id='showcase'>
     <div class='container'>
-        <h2>Hola</h2>
-        <p>K ase... soy valen</p>
+        <h2>Soy Valen!</h2>
+        <p>y hablo sobre <span class='typed-carrousell'></span></p>
         <audio controls>
           <source src="http://130.185.144.199:22495/;stream.mp3" type="audio/mp3">
         </audio>
     </div>
   </section>
+
+  <script src="https://kit.fontawesome.com/7b3205eae1.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script>
+    var typed = new Typed('.typed-carrousell', {
+      strings: ["K-POP.", "BTS."],
+      typeSpeed: 150,
+      backSpeed: 50,
+      loop: true
+    });
+  </script>
 
 </body>
 </html>
